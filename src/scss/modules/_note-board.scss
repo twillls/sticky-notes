@@ -1,0 +1,21 @@
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: $light-color;
+  color: $dark-color;
+  font-family: $base-font;
+
+  .App {
+    height: 100%;
+  }
+
+  .main {
+    display: flex;
+    height: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+.note {
+  padding: 0;
+
+  &:nth-child(5n) {
+    background-color: $blue;
+  }
+
+  &:nth-child(5n+1) {
+    background-color: $pink;
+  }
+
+  &:nth-child(5n+2) {
+    background-color: $purple;
+  }
+
+  &:nth-child(5n+3) {
+    background-color: $orange;
+  }
+
+  &:nth-child(5n+4) {
+    background-color: $green;
+  }
+
+  .note-header {
+    display: flex;
+    border-bottom: 1px solid $dark-color;
+    padding: .5rem;
+
+    h2 {
+      margin: 0;
+      margin-right: auto;
+      max-width: 70%;
+    }
+
+    button {
+      background-color: unset;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  p {
+    padding: .5rem;
+  }
+}
